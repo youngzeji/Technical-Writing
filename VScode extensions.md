@@ -24,3 +24,4 @@ To **Configure** this extension to be activated for a particular set of language
 }
 ```
 By default it is set as `["*"]`
+
