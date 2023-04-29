@@ -25,3 +25,21 @@ To **Configure** this extension to be activated for a particular set of language
 ```
 By default it is set as `["*"]`
 
+## **Vscode-icons**
+This an extension that is filled with every icon you would think of. This extension provides attractive and engaging icons for your workspace. VS code comes with its own default icons but this extension provides aesthetic icons.
+
+![pull mockup](./)
+
+To **Install** go to the Extension Marketplace and search with `vscode-icons`. You could also install from the Command palette using the command `ext install vscode-icons`. If this command does not work then use `ext install icons` or `ext install "vscode-icons"`.
+
+To **Activate** for `linux` and `windows` users go to **File>Preferences>Theme>File Icon Theme>VScode Icons**. For `MacOS` users go to **Code>Preferences>Theme>File Icon Theme>VsCode Icons**.
+
+## **Live Server** 
+This extension enables you to view a HTML document the way it will appear on the web. Any changes you make the file causes the browser to reload and you can see them. 
+
+![pull mockup](./)
+
+To **Install** go to VS code Extension Marketplace and search `Live server`. To install with Command palette use command `ext install ritwickdey.liveserver`.
+
+To open server `alt+L, alt+O` or go to the command palette and type `Live Server: Open With live Server`.
+TO close server `alt+L, alt+C`  or go to command palette and type `Live Server: Close With Live Server`
