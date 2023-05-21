@@ -1,5 +1,9 @@
 # **Getting Started With GitHub; Part 1**
 
+## *Introduction*
+This article explains the concepts Git and Github. Some important terms used in the github workflow are explained briefly. Procedures for completing basic tasks in Github will be explained. User should already have github installed on there operating system. For procedures to install github click [here](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
+
+
 ## **Table of Content**
 [What is Github](#what-is-github)
 
@@ -15,17 +19,22 @@
 
 [Merge a Pull Request](#merge-a-pull-request)
 
-## **What is GitHub**
-Github is a web-hosted Git repository which is a version control system that allows you to keep track of changes to your document. Git is an open source version that allows multiple users make separate changes to documents at the same time. Github allows numerous developers to work on one project at the same time therefore it is used for collaborative coding. Developers can write a code, build a project and track changes to the project. Github as version control system are used widely for things involving codes, but can also be used to version control images, documents, and other types of files.
+[Summary](#summary)
+## **What is Git and GitHub**
+Git is a version control system that allows you to keep track of changes to your document. Git is an open source version that allows multiple users make separate changes to documents at the same time. 
 
-## **Github terms**
+Github is a web-hosted Git repository. Github allows numerous developers to work on one project at the same time therefore it is used for collaborative coding. Developers can write a code, build a project and track changes to the project. Github as version control system are used widely for things involving codes, but can also be used to version control images, documents, and other types of files.
+
+## **Github glossary**
 **Repository** Also known as Repo`s are folders in which your project files and their version histories are stored. It is a data structure for storing documents including application source code. 
 
 **Working Directory** is a directory of hierarchical file system which includes its files and subdirectories that is a dynamically associated with a git repository.
 
 **Commit Changes** is a way of saving a change made to a file within a repo.
 
-**Branch** is a workspace in which you can create a new similar file and make changes without affecting the original file. All files created on github are stored on a branch. The master branch is created by default but when you plan to change things you create a new branch and give it a descriptive name. The new branch is an exact copy of the original branch. When you make changes it only affects the new branch while the original branch stays intact. The changes can only affect the original branch when you commit and merge the changes back into the master or original branch.
+**Branch** is a workspace in which you can create a new similar file and make changes without affecting the original file. All files created on github are stored on a branch. The master branch is created by default but when you plan to change things you create a new branch and give it a descriptive name.
+
+The new branch is an exact copy of the original branch. When you make changes it only affects the new branch while the original branch stays intact. The changes can only affect the original branch when you commit and merge the changes back into the master or original branch.
 
 **Merge** is done after a change to a branch of a repo has been approved or a pull request is approved. Developers can change source files in a branch but the changes are not released until they are committed. A pull command is issued. The code is reviewed and approved. The approved code is merged back into the main branch.
 
@@ -39,7 +48,7 @@ To add a new repository to your github. Go to the homepage of your Github, click
 ![Click to view Image](./images/github%2001.png)
 
 A new window will open, enter the repository name, You can fill in the description box which is optional(this describes what the repo is all about). Select the `Initialize this repository with a README` check box. A README file is to describe the purpose of the project.
-Select repo visibility whether `Public` or `Private`. When it is public it is visible on the web wen searched for by any random web user.
+Select repo visibility whether `Public` or `Private`. When it is public it is visible on the web when searched for by any random web user.
 
 ![Click to View Image](./images/github%202.png)
 
@@ -60,7 +69,7 @@ Click `Add file` and select `Create new file`. This will create a new file in th
 
 Enter file name and its extension. example we want create a markdown file the file name is html and extension is *.md* therefore we have *html.md*. Add the lines of text or code to your file depending on the purpose of your file.
 
-![Click to View Image](./images/github%2007.png)
+![Click to View Image](./images/github%2007.png)  
 
 Scroll down to page bottom and add description for you file and click `commit` to create your new file.
 
@@ -91,7 +100,7 @@ Your file is then uploaded to your repository
 ![Click to View Image](./images/github%2015.png)
 
 ## **Create a Branch**
-is a workspace in which you can create a new similar file and make changes without affecting the original file. All files created on github are stored on a branch. The master branch is created by default but when you plan to change things you create a new branch and give it a descriptive name.
+Branching is a workspace in which you can create a new similar file and make changes without affecting the original file. All files created on github are stored on a branch. The master branch is created by default but when you plan to change things you create a new branch and give it a descriptive name.
 
 When you created your repository a main branch was created. So to add a branch to your repository, open the repo by going to its main page and you will notice that it states it has just one branch which is the main branch.
 
@@ -113,9 +122,9 @@ Any file that were in the `main branch` have now been copied to the the newly cr
 To add a file to the new branch is the same process for adding a file to a repo as discussed above.
 
 ## **Create a pull request**
-When you create a new branch and you add files to the new branch, note that this files wont be added to the main branch. This means any change made on the new branch wont be added to the main branch. A `pull request` and `merge` must be carried out to apply this changes to the from the new branch unto the main branch. To create a pull request follow this process;
+When you create a new branch and you add files to the new branch, note that this files would not be added to the main branch. This means any change made on the new branch wont be added to the main branch. A `pull request` and `merge` must be carried out to apply this changes to the from the new branch unto the main branch. To create a pull request follow this process;
 
-Firtsly add a file to the new branch using the add a file metthod explained above
+Firstly add a file to the new branch using the add a file method explained above
 
 In the new branch(Repo Update), click `Contribute` and select `Pull Request`
 
@@ -154,3 +163,14 @@ Now the pull request and merging are complete you can delete the new branch if y
 ![Click to View Image](./images/github%2026.png)
 
 Go to the main branch and check to see that the new file has now been added.
+
+
+## **Summary**
+In this article we have defined Git as a version control system that allows you to keep track of changes to your document. Github as a web-hosted Git repository. Terms like merging, branching, staging, repository, pull request and committing changes. We have also outlined Procedures on how to;
+- create a repository
+- add files to a repository 
+- create a branch
+- create a pull request
+- merge files to a branch
+
+Take some time off then come back and go over the procedures again.
